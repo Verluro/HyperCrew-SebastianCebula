@@ -1,0 +1,111 @@
+.t-site-contact-us {
+    position: relative;
+    height: 630px;
+
+
+    @include small-up {
+        margin-top: 20px;
+    }
+
+    &__image {
+        float: left;
+        display: none;
+
+        @include medium-up {
+            display: inline-block;
+            width: 25%;
+        }
+    }
+
+    &__form {
+        height: auto;
+        position: absolute;
+        right: 0;
+        width: 100%;
+
+        @include small-up {
+            width: 100%;
+        }
+
+        @include medium-up {
+            width: 75%;
+        }
+
+        @include large-up {
+            width: 75%;
+            max-width: 1300px;
+            margin-right: 150px;
+        }
+
+        h1 {
+
+            @include small-up {
+                font-size: 36px;
+                text-align: center;
+            }
+
+            @include medium-up {
+                font-size: 73.3px;
+            }
+        }
+
+        form {
+
+            @include medium-up {
+                margin-top: 70px;
+            }
+        }
+
+        &-input {
+            float: left;
+            margin: 0; 
+
+            @include medium-up {
+                margin: 0 35px;
+            }
+
+            &:first-child {
+                margin-left: 0;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            input {
+                height: 50px;
+            }
+        } 
+
+        &-textarea {
+            width: 100%;
+            padding-top: 30px;
+
+            textarea {
+                height: 50px;
+                resize: vertical;
+                min-height: 50px;
+                max-height: 100px;
+            }
+        } 
+
+        &-checkbox {
+            float: left;
+            font-size: $font-size-3 * 1.5;
+            font-family: 'BSC';
+        }
+
+        &-submit {
+            float: right;
+        }
+    }
+
+    &__image {
+        
+    }
+
+    &__form-more {
+        margin-left: 20px;
+    }
+}
+

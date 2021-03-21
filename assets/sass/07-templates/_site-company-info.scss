@@ -1,0 +1,66 @@
+.t-site-company-info {
+    
+    width: 100%;
+    height: 150px;
+    
+    @include large-up {
+        height: 370px;
+    }
+
+    &__card {
+        width: 100%;
+        height: 125px;
+        margin-top: $margin-20;
+        margin-bottom: $margin-40;
+        float: right;
+        background-color: $white;
+
+        @include small-up {
+            width: 100%;
+        }
+
+        @include large-up {
+            width: 1370px;
+            height: 255px;
+            margin-top: $margin-40;
+            margin-bottom: $margin-80;
+        }
+
+        &-shape {
+            overflow: hidden;
+            float: left; 
+             
+            img {
+                height: 125px;
+                width: 47px;
+                overflow: hidden;
+                object-fit: cover;
+                object-position: 50% 82%;
+
+                @include large-up {
+                    height: 255px;
+                }
+            }
+
+        }
+
+        &-text {
+            font-size: 32.2px;
+            font-weight: bold;
+            letter-spacing: -2px;
+            color: $black;
+            margin-left: $margin-90;
+            line-height: 32.2px;
+
+            @include large-up {
+                font-size: 48px;
+                line-height: 255px;
+            }
+        }
+
+        &-content {
+            float: left;
+            margin-right: $margin-90;
+        }
+    }
+} 

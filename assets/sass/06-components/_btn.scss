@@ -1,0 +1,36 @@
+.c-btn {
+    border: none;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 22px;
+    padding: 10px 30px;
+    text-align: center;
+    transition: all .25s ease-in-out;
+    position: relative;
+
+    @include large-up {
+        font-size: 31.02px;
+        line-height: 31.02px;
+    }
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    &--primary {
+        background-color: $green;
+        color: black;
+
+        &:hover {
+            background-color: darken($green, 15%);
+            color: $white;
+        }
+    }
+
+    &--center {
+        margin: 0 auto;
+        text-align: center;
+    }
+}

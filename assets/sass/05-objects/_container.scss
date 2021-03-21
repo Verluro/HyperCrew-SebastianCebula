@@ -1,0 +1,53 @@
+.o-container {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: $gutter;
+	padding-right: $gutter;
+	width: 100%;
+
+	@include medium-up {
+		max-width: 1100px;
+	}
+
+	@include large-up {
+		max-width: 1800px;
+	}
+}
+
+.o-container-2 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+
+	@include small-up {
+		width: 100%;
+	}
+
+	@include medium-up {
+		width: 1220px;
+	}
+
+	@include large-up {
+		width: 1800px;
+	}
+}
+
+.o-container-3 {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: $gutter;
+	padding-right: $gutter;
+	width: 100%;
+
+	@include small-up {
+		width: 100%;
+	}
+
+	@include medium-up {
+		width: 1200px;
+	}
+
+	@include large-up {
+		width: 1440px;
+	}
+}

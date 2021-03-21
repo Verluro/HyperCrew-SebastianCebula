@@ -1,0 +1,22 @@
+.c-social {
+
+    position: absolute;
+    right: 40px;
+    top: 100px; 
+    mix-blend-mode: difference;
+
+    @include large-up {
+        top: 400px;
+    }
+    
+    &__icon {
+        width: 15px;
+        height: 15px;
+
+        img {
+            margin-bottom: $margin-25; 
+        }
+    }
+
+    
+} 
