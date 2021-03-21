@@ -1,0 +1,24 @@
+.c-text {
+    &--green {
+        color: $green;
+    }
+
+    &--center {
+        margin: 0;
+        text-align: center;
+    }
+
+    &--right {
+        text-align: right;
+    }
+
+    &--bold {
+        font-weight: bold;
+    }
+
+    &--extra-bold {
+        font-weight: bold;
+        font-family: 'BSC-ExtraBold';
+    }
+} 
+

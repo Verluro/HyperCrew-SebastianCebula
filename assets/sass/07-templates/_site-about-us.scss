@@ -1,0 +1,22 @@
+.t-site-about-us {
+
+    background-color: $white;
+    padding-top: 80px;
+    padding-bottom: 55px;
+    width: 100%;
+
+    &__card {
+        width: 100%;
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 80px;
+
+        &-text {
+            color: $black;
+            font-size: $font-size-2;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-top: $margin-60;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.c-input, .c-textarea {
+    background-color: inherit;
+    color: $white;
+    border: none;
+    border-bottom: 1px solid $white;
+    font-size: $font-size-1;
+}
+
+
+.c-textarea {
+    padding: 0;
+    width: 100%;
+}
+
+.c-input {
+    width: 100%;
+
+    @include medium-up {
+        width: 150px;
+    }
+
+    @include large-up {
+        width: 100%;
+    }
+}
+
+.alert {
+    font-size: 20px;
+}
+
+.has-error input, .has-error textarea {
+    border-bottom: 1px solid red;
+} 
+
+.error-value {
+    color: red;
+    font-size: 20px;
+}
+

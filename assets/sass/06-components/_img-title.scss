@@ -1,0 +1,23 @@
+.c-img-title {
+    border: none;
+    display: inline-block;
+    font-style: $font-size-5;
+    font-weight: 700;
+    line-height: $line-height-base;
+    padding: .75rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: $grid-base * 22;
+
+    &--red {
+        background-color: $red;
+    }
+
+    &--blue {
+        background-color: $blue;
+    }
+
+    &--yellow {
+        background-color: $yellow;
+    }
+}
